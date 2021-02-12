@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="assets/js/script.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body onresize="mobileMenuHandler(event);">
+	<div class="container-fluid header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-3 col-xs-3 company_logo_holder">
+					<img src="assets/images/logo.png">
+				</div>
+				<div class="col-md-9">
+					<div class="header_menu" id="header_menu">
+						<ul>
+							<li>Home</li>
+							<li>About us</li>
+							<li>Careers</li>
+							<li>Contact Us</li>
+						</ul>
+					</div>
+					<div class="bars" onclick="closeMobileMenu();">
+						<i class="fa fa-bars" aria-hidden="true"></i>
+					</div>
+				</div>
+				<div class="mobile_menu" id="mobile_menu">
+					<div>Home</div>
+					<div>About us</div>
+					<div>Careers</div>
+					<div>Contact Us</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid main_banner">
+		<div class="container">
+			<div class="banner_content">
+				<div class="banner_heading">
+					<h1>Expert beauty services at home</h1>
+				</div>
+				<div class="banner_text">
+					<p>Hair , nails , makeup and more </p>
+				</div>
+				<div class="book_now_btn">
+					Book now
+				</div>
+				<div class="google_ads">
+					<img src="assets/images/google_ads.png">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid add_banner">
+		<div class="container add_data_holder">
+			<div class="col-md-9 add_text_holder">
+				<h3>Be your own boss .</h3>
+				<h3>Earn more and take control of your career</h3>
+				<p>We're are looking for stylists, nail technicians, lash technicians, beauty therapists, waxing, facial or message therapists to join our Beauty on the Go platform </p>
+			</div>
+			<div class="col-md-3 signup_btn_holder">
+				<button class="signup_btn">Sign up now</button>
+				<div class="google_ads">
+					<img src="assets/images/google_ads.png">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid about_us_section">
+		<div class="container about_us_parent">
+			<div class="col-md-6 about_us_text">
+				<h3 class="about_us_heading">About us</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+			<div class="col-md-6 about_us_image">
+				<div class="col-md-6 col-sm-6 col-xs-6 about_full">
+					<img src="assets/images/about_two.jpg" class="about_two">
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-6 about_half">
+					<img src="assets/images/about_one.png" class="about_one">
+					<img src="assets/images/about_three.jpg" class="about_three">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid add_banner blowdry_ads">
+		<div class="container add_data_holder">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="col-md-9 add_text_holder">
+						<h1 class="add_block_heading">Blowdry + Nails</h1>
+						<h3 class="nicola_font">Prices as low as R160</h3>
+					</div>
+					<div class="col-md-3 signup_btn_holder">
+						<button class="signup_btn">Book Now</button>
+						<div class="google_ads">
+							<img src="assets/images/google_ads.png">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid company_info_section text-center">
+		<div class="container">
+			<div class="col-md-3 company_info_block">
+				<h3>564</h3>
+				<p>Customers</p>
+			</div>
+			<div class="col-md-3 company_info_block">
+				<h3>900</h3>
+				<p>Beauticians</p>
+			</div>
+			<div class="col-md-3 company_info_block">
+				<h3>700</h3>
+				<p>at Home Services</p>
+			</div>			
+			<div class="col-md-3 company_info_block">
+				<h3>4.5</h3>
+				<p>Ratings</p>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid services_section text-center">
+		<div class="container">
+			<div class="row service_heading">
+				<h3>How it Works</h3>
+				<p>Our beauty pros can come to your home, office or hotel in johannesburg, 7:30 am - late,<br /> 7 days a week. You can book in advance, or as little as three hours before. </p>
+			</div>	
+			<div class=" row service_card_holder">
+				<div class="col-md-4 service_card">
+					<div class="service_logo">
+						<img src="assets/images/mobile_icon.svg" alt="">
+					</div>
+					<div class="service_sub_heading">
+						<h4>Select your service</h4>						
+					</div>
+					<div class="service_text">
+						Download the app and select your service. from makeup and blow dries to manicures and pedicures at home.
+					</div>
+				</div>
+				<div class="col-md-4 service_card">
+					<div class="service_logo">
+						<img src="assets/images/calender_icon.svg" alt="">
+					</div>
+					<div class="service_sub_heading">
+						<h4>Choose a time and date</h4>						
+					</div>
+					<div class="service_text">
+						We can always fit around your schedule. Select a time, date and location that works for you
+					</div>					
+				</div>
+				<div class="col-md-4 service_card">
+					<div class="service_logo">
+						<img src="assets/images/doctor.png" alt="">
+					</div>
+					<div class="service_sub_heading">
+						<h4>We'll come to you</h4>						
+					</div>
+					<div class="service_text">
+						One of our beauty therepists will arrive at your door with premium products and equipment to leave you looking and feeling fabulous!						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid about_us_section">
+		<div class="container about_us_parent why_bongo_card text-center">
+			<div class="row">
+				<div class="col-md-6 col-sm-12 col-xs-12 about_us_text">
+					<h3>Why Bongo?</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+				<div class="col-md-6 col-sm-12 col-xs-12 about_us_image">
+					<img src="assets/images/about_one.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid services_section text-center">
+		<div class="container">
+			<div class=" row service_card_holder">
+				<div class="col-md-4">
+					<div class="service_logo money_logo_card">
+						<img src="assets/images/icon_money.png" alt="">
+					</div>
+					<div class="service_sub_heading">
+						<h4>Earn more</h4>						
+					</div>
+					<div class="service_text">
+						Do What you love and earn $5k per month full-time or $2k per month part-time*. As a blow LTD mobile beauty pro. you could start earning from next week and be paid weekly too!
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="service_logo money_logo_card">
+						<img src="assets/images/calendar_save.png" alt="">
+					</div>
+					<div class="service_sub_heading">
+						<h4>Be your Own boss</h4>						
+					</div>
+					<div class="service_text">
+						Be your own boss and choose your own hours from our simple pro app. it's flexible. so you can fit work around your holidays and commitments. There's no salon politics when you work for yourself
+					</div>					
+				</div>
+				<div class="col-md-4">
+					<div class="service_logo money_logo_card">
+						<img src="assets/images/icon_support.png" alt="">
+					</div>
+					<div class="service_sub_heading">
+						<h4>24/7 Support</h4>
+					</div>
+					<div class="service_text">
+						We do all the admin and marketing so you dont have to! You'll be assigned an account manager from day 1
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid add_banner join_team_card">
+		<div class="container add_data_holder">
+			<div class="col-md-9  add_text_holder">
+				<h3>Want to join our amazing team .</h3>
+				<p>We want to offer you a big opportunity with thousands of customers, hotels and guesthouses closest to you.</p>
+			</div>
+			<div class="col-md-3 signup_btn_holder">
+				<button class="signup_btn">Sign up now</button>
+				<div class="google_ads">
+					<img src="assets/images/google_ads.png">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid comments_section text-center">
+		<div class="container">
+			<div class="row comments_heading">
+				<h2 class="add_block_heading">What people have to say</h2>
+			</div>			
+			<div class="row card_holder_parent">
+				<div class="col-md-4">
+					<div class="card_parent">
+						<div class="user_information">
+							<div class="user_image">
+								<img src="assets/images/user1.png" alt="">
+							</div>
+							<div class="user_name">
+								Nicola Hammer
+							</div>
+							<span class="star_icon_holder">
+								<i class="fa fa-star" aria-hidden="true"></i>
+								<i class="fa fa-star" aria-hidden="true"></i>
+								<i class="fa fa-star" aria-hidden="true"></i>
+								<i class="fa fa-star" aria-hidden="true"></i>
+								<i class="fa fa-star" aria-hidden="true"></i>
+							</span>
+						</div>
+						<div class="user_review">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo delectus necessitatibus dignissimos tenetur fuga asperiores soluta, voluptatum maiores, quisquam fugiat laudantium tempore, possimus.
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card_parent">
+						<div class="user_information">
+							<div class="user_image">
+								<img src="assets/images/user2.png" alt="">
+							</div>
+							<div class="user_name">
+								Sabrina J
+							</div>
+							<span class="star_icon_holder">
+								<i class="fa fa-star" aria-hidden="true"></i>
+								<i class="fa fa-star" aria-hidden="true"></i>
+								<i class="fa fa-star" aria-hidden="true"></i>
+								<i class="fa fa-star" aria-hidden="true"></i>
+								<i class="fa fa-star" aria-hidden="true"></i>
+							</span>
+						</div>
+						<div class="user_review">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo delectus necessitatibus dignissimos tenetur fuga asperiores soluta, voluptatum maiores, quisquam fugiat laudantium tempore, possimus.
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card_parent">
+						<div class="user_information">
+							<div class="user_image">
+								<img src="assets/images/user3.png" alt="">
+							</div>
+							<div class="user_name">
+								Pamela Anderson
+							</div>
+							<span class="star_icon_holder">
+								<i class="fa fa-star" aria-hidden="true"></i>
+								<i class="fa fa-star" aria-hidden="true"></i>
+								<i class="fa fa-star" aria-hidden="true"></i>
+								<i class="fa fa-star" aria-hidden="true"></i>
+								<i class="fa fa-star" aria-hidden="true"></i>
+							</span>
+						</div>
+						<div class="user_review">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo delectus necessitatibus dignissimos tenetur fuga asperiores soluta, voluptatum maiores, quisquam fugiat laudantium tempore, possimus.
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="slider_dots_parent">
+				<span class="slider_dot"></span>
+				<span class="slider_dot"></span>
+				<span class="slider_dot"></span>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer_content_holder">
+					<div class="col-md-5">
+						<img src="assets/images/footerlogo.png" alt="">
+						<div class="footer_icon_parent">
+							<p>Follow Us</p>
+							<div class="footer_icon_holder">
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+								<i class="fa fa-twitter" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-6 footer_about">
+						<ul>
+							<li class="footer_menu_heading">ABOUT</li>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">How it works</a></li>
+							<li><a href="#">Legal</a></li>
+						</ul>
+					</div>
+					<div class="col-md-2 col-sm-5 footer_about">
+						<ul>
+							<li class="footer_menu_heading">OUR SERVICES</li>
+							<li><a href="#">How to get ready</a></li>
+							<li><a href="#">FAQ's</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 col-sm-5 footer_about">
+						<ul>
+							<li class="footer_menu_heading">CONTACT</li>
+							<li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i>+27 72 894 0643</a></li>
+							<li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i><span>customerservicesbongo@gmail.com</span></a></li>
+						</ul>
+						<div class="ads_holder">
+							<div class="google_ads">
+								<img src="assets/images/google_ads.png">
+							</div>
+							<div class="visa_ads">
+								<img src="assets/images/visa.png">		
+								<img src="assets/images/mc.png" class="mc_ads">		
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row copyright_area">
+				<p><i class="fa fa-copyright" aria-hidden="true"></i>Bongo 2019</p>
+				<p>Privacy Policy  <i class="fa fa-circle" aria-hidden="true"></i>  Terms and Conditions</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
