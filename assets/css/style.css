@@ -449,6 +449,12 @@
     font-size: 7px;
 }
 
+@media (max-width: 550px) {
+    .banner_content {
+	width: 300px;
+     }
+}
+
 @media (max-width: 991px) {
     .header_menu {
         display: none;
